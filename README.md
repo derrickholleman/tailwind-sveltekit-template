@@ -1,4 +1,8 @@
-## Creating a project
+## Get Started
+
+`git clone` the repo and run `npm install`
+
+## Tools Included
 
 SvelteKit - https://kit.svelte.dev  
 TailwindCSS - https://tailwindcss.com/docs/guides/sveltekit  

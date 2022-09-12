@@ -2,6 +2,12 @@
 
 `git clone` the repo and run `npm install`
 
+## Commands
+
+`npm run dev` to start the dev server  
+`npm run test` to run jest tests  
+`npm run format` to format repo with [Prettier](https://prettier.io)
+
 ## Tools Included
 
 SvelteKit with [Typescript](https://www.typescriptlang.org) - https://kit.svelte.dev  

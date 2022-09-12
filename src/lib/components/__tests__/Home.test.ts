@@ -4,9 +4,8 @@ import Home from '../Home.svelte';
 
 describe('Home', () => {
     it('should render', () => {
-        const { getByTestId } = render(Home);
+        const { getByText } = render(Home);
 
-        const pageTitle = getByTestId('page-title');
-        expect(pageTitle).toBeInTheDocument();
+        expect(getByText('Welcome to SvelteKit')).toBeInTheDocument();
     });
 });

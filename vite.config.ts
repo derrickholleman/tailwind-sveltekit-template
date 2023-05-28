@@ -3,6 +3,11 @@ import type { UserConfig } from 'vite';
 import path from 'path';
 
 const config: UserConfig = {
+    server: {
+        fs: {
+            allow: ['../'],
+        },
+    },
     plugins: [sveltekit()],
     resolve: {
         alias: {
